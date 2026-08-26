@@ -222,3 +222,150 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .contact-card { padding: 34px 24px; border-radius: 24px; }
   .footer-wrap { flex-direction: column; gap: 5px; }
 }
+
+/* ===== Portfolio v2 additions: Data Engineering & Automation ===== */
+.project-featured-light {
+  margin-top: 22px;
+  background: #ffffff;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.project-featured-light .project-index { color: var(--accent); }
+.project-featured-light .project-copy > p { color: var(--muted); }
+.project-featured-light .project-meta div { border-top-color: var(--line); }
+.project-featured-light .project-meta dt { color: var(--accent); }
+.project-featured-light .project-meta dd { color: var(--ink); }
+.project-featured-light .project-media { background: #edf3f8; }
+.powerbi-feature .project-media img { object-fit: contain; background: #fff; }
+
+.section-automation {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(11,117,108,.08), transparent 34%),
+    radial-gradient(circle at 92% 18%, rgba(23,60,89,.08), transparent 30%),
+    var(--bg);
+}
+.section-side-note {
+  max-width: 310px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.case-study {
+  display: grid;
+  grid-template-columns: .92fr 1.08fr;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  box-shadow: 0 16px 44px rgba(11,34,57,.07);
+}
+.case-media { min-height: 580px; background: #0d1015; padding: 22px; display: flex; align-items: center; }
+.case-media img { width: 100%; height: 100%; max-height: 545px; object-fit: contain; border-radius: 18px; }
+.case-copy { padding: 48px; align-self: center; }
+.case-copy h3 { margin: 0; font-size: clamp(30px, 3.4vw, 45px); line-height: 1.05; letter-spacing: -.04em; }
+.case-lead { margin: 20px 0 0; color: var(--muted); font-size: 16px; }
+.case-columns { display: grid; grid-template-columns: 1.15fr .85fr; gap: 34px; margin-top: 30px; padding-top: 24px; border-top: 1px solid var(--line); }
+.case-columns h4 { margin: 0 0 12px; font-size: 13px; text-transform: uppercase; letter-spacing: .08em; }
+.case-columns ul { margin: 0; padding-left: 18px; color: #47545e; font-size: 13px; }
+.case-columns li + li { margin-top: 7px; }
+.stack-list { display: flex; flex-wrap: wrap; gap: 7px; }
+.stack-list span { border-radius: 999px; background: var(--accent-soft); color: #075c55; padding: 7px 10px; font-size: 11px; font-weight: 800; }
+.case-note { margin: 18px 0 0; color: var(--muted); font-size: 12px; }
+
+.automation-grid { display: grid; grid-template-columns: .82fr 1.18fr; gap: 22px; margin-top: 22px; }
+.automation-card {
+  min-height: 360px;
+  padding: 32px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.automation-card h3 { margin: 0; font-size: 28px; letter-spacing: -.035em; }
+.automation-card > p:not(.project-index) { color: var(--muted); }
+.siperi-card {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(145deg, #0b2239 0%, #173c59 72%, #0b756c 150%);
+  color: #fff;
+  border-color: transparent;
+}
+.siperi-card::after {
+  content: "SIPERI\A 2.0";
+  white-space: pre;
+  position: absolute;
+  right: -10px;
+  bottom: -25px;
+  font-size: 88px;
+  line-height: .78;
+  font-weight: 900;
+  letter-spacing: -.07em;
+  color: rgba(255,255,255,.055);
+  pointer-events: none;
+}
+.siperi-card .project-index { color: #88d9d0; }
+.siperi-card > p:not(.project-index) { color: #c8d6df; max-width: 90%; }
+.siperi-card .mini-meta span { background: rgba(255,255,255,.08); border-color: rgba(255,255,255,.18); color: #e8f0f4; }
+.live-badge { width: fit-content; display: inline-flex; align-items: center; gap: 7px; margin-bottom: auto; padding: 7px 10px; border-radius: 999px; background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.14); color: #dff7f3; font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .08em; }
+.live-badge span { width: 7px; height: 7px; background: #72e3d5; border-radius: 50%; box-shadow: 0 0 0 5px rgba(114,227,213,.10); }
+.inline-action { position: relative; z-index: 2; display: inline-flex; width: fit-content; margin-top: 26px; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-size: 13px; font-weight: 800; }
+
+.automation-card-visual {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  gap: 30px;
+  align-items: center;
+}
+.automation-flow { border-radius: 20px; padding: 24px; background: #0e1720; }
+.flow-node { padding: 12px 14px; border: 1px solid #344453; border-radius: 12px; color: #b7c3cc; background: #17232e; font-size: 11px; font-weight: 800; text-align: center; }
+.flow-node.active { background: #173c59; border-color: #376d91; color: #fff; }
+.flow-node.success { background: #0d4c46; border-color: #1c756c; color: #d7fff9; }
+.flow-line { width: 2px; height: 18px; margin: 0 auto; background: linear-gradient(#405563,#2b826f); }
+
+.colab-project {
+  display: grid;
+  grid-template-columns: .82fr 1.18fr;
+  gap: 22px;
+  margin-top: 22px;
+  padding: 28px;
+  border-radius: 30px;
+  background: #111820;
+  color: #fff;
+}
+.colab-copy { padding: 22px 18px 22px 20px; align-self: center; }
+.colab-copy .project-index { color: #8ed9d0; }
+.colab-copy h3 { margin: 0; font-size: 34px; line-height: 1.08; letter-spacing: -.035em; }
+.colab-copy > p:not(.project-index) { color: #bac7d0; }
+.colab-features { display: grid; gap: 10px; margin: 24px 0; }
+.colab-features div { padding: 14px; border-radius: 14px; background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.08); }
+.colab-features strong, .colab-features span { display: block; }
+.colab-features strong { font-size: 12px; }
+.colab-features span { margin-top: 4px; color: #adbbc4; font-size: 11px; }
+.colab-project .mini-meta span { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); color: #d4dfe6; }
+.dual-media { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.dual-media figure { margin: 0; min-width: 0; padding: 10px; border-radius: 18px; background: #fff; }
+.dual-media img { width: 100%; height: 390px; object-fit: cover; object-position: top; border-radius: 12px; }
+.dual-media figcaption { padding: 9px 4px 3px; color: #64717c; font-size: 10px; font-weight: 700; }
+.privacy-note { margin: 18px 2px 0; color: var(--muted); font-size: 11px; }
+
+@media (max-width: 1040px) {
+  .case-study, .colab-project { grid-template-columns: 1fr; }
+  .case-media { min-height: 420px; }
+  .automation-grid { grid-template-columns: 1fr; }
+  .automation-card-visual { grid-template-columns: .8fr 1.2fr; }
+}
+
+@media (max-width: 720px) {
+  .case-copy { padding: 30px 24px; }
+  .case-columns { grid-template-columns: 1fr; }
+  .case-media { min-height: 330px; padding: 14px; }
+  .automation-card { min-height: 330px; padding: 26px; }
+  .automation-card-visual { grid-template-columns: 1fr; }
+  .colab-project { padding: 18px; }
+  .colab-copy { padding: 18px 8px; }
+  .dual-media { grid-template-columns: 1fr; }
+  .dual-media img { height: 320px; }
+  .section-side-note { max-width: none; }
+}
