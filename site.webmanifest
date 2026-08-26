@@ -1,0 +1,15 @@
+{
+  "name": "Putra Rat Ajari Portfolio",
+  "short_name": "PRA Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#0b2239",
+  "icons": [
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

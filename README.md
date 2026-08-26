@@ -1,27 +1,20 @@
-# Putra Rat Ajari — Portfolio Website
+# Putra Rat Ajari Portfolio — v2.2 Final (Keep Current Design)
 
-Static portfolio website prepared for GitHub Pages.
+This build intentionally preserves the current live visual design and hero section while adding final content and technical polish.
 
-## Structure
+## Included improvements
 
-- `index.html` — main website
-- `assets/styles.css` — all styling
-- `assets/script.js` — menu, reveal animation, current year
-- `assets/*.webp` — profile and project images
-- `documents/Putra-Rat-Ajari-CV.pdf` — downloadable CV
-- `documents/Putra-Rat-Ajari-Full-Portfolio.pdf` — downloadable full PDF portfolio
+- Natural English wording, including **1.4M-Row Data Processing Pipeline**
+- SIPERI 2.0 summary: **Purpose / Build / Platform** + live-project link
+- **GitHub Actions — Scheduled Workflow Automation**
+- **Automated Budget & Document Validation** with Budget/Pagu and ABT Lintor use cases
+- Power BI caption and source-dataset disclaimer
+- PRA favicon and web manifest
+- 1200×630 Open Graph/social preview based on the preferred current hero design
+- Canonical URL, meta description, Open Graph/Twitter metadata, and structured data
+- Improved keyboard focus/accessibility states
+- GitHub profile link
 
-## Publish on GitHub Pages
+## Deployment
 
-1. Create a new GitHub repository, for example `portfolio`.
-2. Upload all files and folders from this package to the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Choose branch **main** and folder **/(root)**, then save.
-6. GitHub will provide a public URL such as `https://USERNAME.github.io/portfolio/`.
-
-For a cleaner address, name the repository `USERNAME.github.io`. The site will then be available at `https://USERNAME.github.io/`.
-
-## Before publishing
-
-Review company screenshots and remove or replace anything that should not be public. For confidential projects, use sample/dummy data and screenshots.
+Upload the contents of the UPDATE ONLY package to the root of `putraratajari.github.io`, replacing files with the same names. The existing `documents/` and unchanged project images do not need to be re-uploaded.
